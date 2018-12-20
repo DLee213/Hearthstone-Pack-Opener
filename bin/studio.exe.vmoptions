@@ -1,0 +1,12 @@
+-server
+-Xms256m
+-Xmx768m
+-XX:ReservedCodeCacheSize=240m
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-Djna.nosys=true
+-Djna.boot.library.path=
+
+-da

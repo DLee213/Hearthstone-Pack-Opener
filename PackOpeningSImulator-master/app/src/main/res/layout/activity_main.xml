@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:screenOrientation="landscape"
+android:theme="@android:style/Theme.NoTitleBar.Fullscreen"><![CDATA[
+    tools:context=".MainActivity">
+    ]]>
+
+<TextView
+    android:id="@+id/craftCost"
+    android:layout_width="92dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="8dp"
+    android:text="TextView"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toEndOf="@+id/dustValue" />
+
+<Button
+    android:id="@+id/button_card3"
+    android:layout_width="95dp"
+    android:layout_height="138dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/button_card4"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toEndOf="@+id/button_card2"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/button_card4"
+    android:layout_width="95dp"
+    android:layout_height="138dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/button_card5"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toEndOf="@+id/button_card3"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/button_card5"
+    android:layout_width="95dp"
+    android:layout_height="138dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toEndOf="@+id/button_card4"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/button_card2"
+    android:layout_width="95dp"
+    android:layout_height="138dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/button_card3"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toEndOf="@+id/button_card1"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/button_card1"
+    android:layout_width="95dp"
+    android:layout_height="138dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/button_card2"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/dustValue"
+    android:layout_width="92dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="8dp"
+    android:text="TextView"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/craftCost"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<Button
+    android:id="@+id/nextPack"
+    android:layout_width="97dp"
+    android:layout_height="55dp"
+    android:layout_marginTop="8dp"
+    android:text="Next Pack"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
